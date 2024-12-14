@@ -21,6 +21,7 @@ body {
     height: 32px;
     background-color: #ff3838;
     transform: translate(-50%, -50%) rotate(45deg);
+    animation: heartbeart 1.4s linear infinite;
 }
 
 .heart::before {
@@ -45,4 +46,13 @@ body {
     left: 0;
     top: 0;
     border-radius: 50%;
+}
+
+@keyframes heartbeart {
+    0% { transform: translate(-50%, -50%) rotate(45deg) scale(1);}
+    25% { transform: translate(-50%, -50%) rotate(45deg) scale(1);}
+    30% { transform: translate(-50%, -50%) rotate(45deg) scale(1.4);}
+    50% { transform: translate(-50%, -50%) rotate(45deg) scale(1.2);}
+    70% { transform: translate(-50%, -50%) rotate(45deg) scale(1.4);}
+    100% { transform: translate(-50%, -50%) rotate(45deg) scale(1);}
 }
