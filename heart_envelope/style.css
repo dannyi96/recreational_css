@@ -1,0 +1,17 @@
+body {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.envelope {
+    width: 0;
+    height: 0;
+    border-top: 100px solid #eee;
+    border-right: 170px solid #ddd;
+    border-left: 170px solid #ccc;
+    border-bottom: 100px solid #ccc;
+}
